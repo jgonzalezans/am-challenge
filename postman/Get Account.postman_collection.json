@@ -1,0 +1,52 @@
+{
+	"info": {
+		"_postman_id": "ee8d859a-d0fa-4622-aa35-4505231fa836",
+		"name": "Get Account",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "12416153"
+	},
+	"item": [
+		{
+			"name": "Get Account ID 1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:18080/v1/accounts/Id-1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "18080",
+					"path": [
+						"v1",
+						"accounts",
+						"Id-1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Account ID 2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:18080/v1/accounts/Id-2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "18080",
+					"path": [
+						"v1",
+						"accounts",
+						"Id-2"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
