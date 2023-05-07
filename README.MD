@@ -10,7 +10,7 @@ The application is built with the Spring Boot framework and uses an in-memory da
 
 To run the application, Java and Gradle need to be installed, and the following command can be used:
 
-'./gradlew bootRun'
+`./gradlew bootRun`
 
 The application exposes a REST API with the following endpoints:
 
@@ -22,7 +22,7 @@ The application exposes a REST API with the following endpoints:
 
 The application has a set of unit and integration tests that can be executed with the following command:
 
-'./gradlew test'
+`./gradlew test`
 
 Additionally, manual tests can be performed using a tool like Postman (Collections included in the 'postman' folder).
 
